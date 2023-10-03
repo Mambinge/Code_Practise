@@ -1,4 +1,5 @@
 # Contributing to SQL Online Editor
+
 Welcome to SQL Online Editor! We are thrilled to have you here and appreciate your interest in contributing. This document provides guidelines on how to get started with this project, contribute code, and improve the project together.
 
 ### Ways to contribute to the project:
@@ -6,7 +7,6 @@ Welcome to SQL Online Editor! We are thrilled to have you here and appreciate yo
 - Suggesting new features: If you have an idea for a new feature, please submit a new issue on GitHub.
 - Fixing bugs: If you want to work on any issue/bug, comment on the issue and make a pull request.
 - Improving documentation: If you find any errors or omissions in our documentation, please submit a pull request with your changes.
-
 
 ## Table of Contents
 
@@ -18,7 +18,6 @@ Welcome to SQL Online Editor! We are thrilled to have you here and appreciate yo
   - [Creating a New Branch](#creating-a-new-branch)
 - [Procedure to Make a Pull Request (PR)](#procedure-to-make-a-pull-request-pr)
 
-
 ## Setting up the Project Locally
 
 To contribute to this project, you need to set it up on your local machine. You will need to have Git and Node.js installed. Follow these steps:
@@ -27,7 +26,7 @@ To contribute to this project, you need to set it up on your local machine. You 
 
 2. **Clone Your Fork:** Clone your forked repository to your local machine using Git. Replace `<your-username>` with your GitHub username:
    ```bash
-   git clone https://github.com/<your-username>/<repository-name>.git
+   git clone https://github.com/<your-username>/sql-editor.git
    ```
 
 3.  **Navigate to the project directory:** `cd <repository-name>`.
@@ -46,9 +45,8 @@ Once you have created a fork, follow these steps:
 
 #### Cloning the repository
   ```bash
-   git clone https://github.com/<your-username>/<repository-name>.git
+   git clone https://github.com/<your-username>/sql-editor.git
    ```
-
 
 #### Navigate to the project directory
 `cd <repository-name>`
@@ -56,7 +54,7 @@ Once you have created a fork, follow these steps:
 #### Add the upstream repository as a remote:
 This helps keep your fork up to date with the main repository.
 ```bash
-git remote add upstream https://github.com/<username>/<repository-name>.git
+git remote add upstream https://github.com/<username>/sql-editor.git
 ```
 
 #### Create a new branch for your changes:
@@ -105,6 +103,3 @@ When writing a pull request, be sure to include the following information:
 Your Pull Request(PR) will be reviewed by the maintainers, and once approved, your changes will be merged into the main repository.
 
 Thank you for contributing to SQL Online Editor! We appreciate your efforts in making this project better.
-
-
-
