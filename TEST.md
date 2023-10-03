@@ -13,7 +13,7 @@ Welcome to SQL Online Editor! We are thrilled to have you here and appreciate yo
 - [Setting up the Project Locally](#setting-up-the-project-locally)
 - [GitHub Workflow](#github-workflow)
   - [Cloning the Repository](#cloning-the-repository)
-  - [Forking the Repository](#forking-the-repository)
+  - [Navigate to the project directory](#navigate-to-the-project-directory)
   - [Adding Upstream Remote](#adding-upstream-remote)
   - [Creating a New Branch](#creating-a-new-branch)
 - [Procedure to Make a Pull Request (PR)](#procedure-to-make-a-pull-request-pr)
@@ -51,13 +51,13 @@ Once you have created a fork, follow these steps:
 #### Navigate to the project directory
 `cd <repository-name>`
 
-#### Add the upstream repository as a remote:
+#### Adding Upstream Remote:
 This helps keep your fork up to date with the main repository.
 ```bash
 git remote add upstream https://github.com/<username>/sql-editor.git
 ```
 
-#### Create a new branch for your changes:
+#### Creating a New Branch:
 For each contribution or bug fix, create a new branch. 
 ```bash
 git checkout -b <branch name>
@@ -79,7 +79,7 @@ git push -u origin <branch name>
 
 *Create a pull request to merge your changes into the upstream repository.*
 
-## Procedure to Make a Pull Request
+## Procedure to Make a Pull Request (PR)
 
 To create a pull request, follow these steps:
 
